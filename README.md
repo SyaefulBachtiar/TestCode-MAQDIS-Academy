@@ -22,8 +22,9 @@ npm install react-router-dom
 ```
 
 ### 5. install rechart
+```bash
 npm install recharts
-
+```
 ### 6. Jalankan proyek (mode development)
 ```bash
 npm run dev
