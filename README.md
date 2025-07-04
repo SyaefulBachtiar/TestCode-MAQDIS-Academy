@@ -3,12 +3,12 @@
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/SyaefulBachtiar/BuatHalamanSederhana.git
+git clone https://github.com/SyaefulBachtiar/TestCode-MAQDIS-Academy.git
 ```
 
 ## 2. Masuk ke direktori
 ```bash
-cd BuatHalamanSederhana
+cd TestCode-MAQDIS-Academy
 ```
 
 ### 3. Install dependencies
