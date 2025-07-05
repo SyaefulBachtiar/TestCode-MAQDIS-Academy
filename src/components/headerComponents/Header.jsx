@@ -4,6 +4,7 @@ import SideBar from "./SideBar";
 import { useState, useRef, useEffect } from "react";
 import { ChevronDown, User } from "lucide-react";
 
+
 export default function Header() {
   const [sideBar, setSideBar] = useState(false);
   const [profileDropdown, setProfileDropdown] = useState(false);
@@ -40,7 +41,7 @@ export default function Header() {
             <div className="flex items-center justify-between w-[200px]">
               <Link to="/">
                 <img
-                  src="/images/logo.png"
+                  src={`${import.meta.env.BASE_URL}images/logo.png`}
                   alt="Logo"
                   className="w-20 sm:w-28 md:w-32"
                 />
@@ -67,7 +68,7 @@ export default function Header() {
                       John Doe
                     </p>
                   </div>
-                  <ChevronDown/>
+                  <ChevronDown />
                 </button>
 
                 {/* Profile Dropdown */}
